@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Les10_Annotation_Autowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les10_Annotation_Autowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les11_Annotation_Qualifier/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les11_Annotation_Qualifier/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les11_Homework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les11_Homework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les12_Scope_Value_PostContract_PreDestroy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les12_Scope_Value_PostContract_PreDestroy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les13_Java_Config_file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les13_Java_Config_file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les2_Beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les2_Beans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les4_IoC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les4_IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les5_DI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les5_DI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les6_DI_Part_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les6_DI_Part_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les7_Scope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les7_Scope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les8_Beans_methods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les8_Beans_methods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les9_Annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les9_Annotations/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
