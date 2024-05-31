@@ -34,6 +34,7 @@
     <module>Les30_Automatic_generation_of_meaning_ID</module>
     <module>Les31_SQL_restrictions</module>
       <module>Les40_Spring_Validator</module>
+      <module>Les41_Validation_of_patterns</module>
 
   </modules>
   <version>1.0-SNAPSHOT</version>
