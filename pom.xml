@@ -35,6 +35,7 @@
     <module>Les31_SQL_restrictions</module>
       <module>Les40_Spring_Validator</module>
       <module>Les41_Validation_of_patterns</module>
+      <module>Project_1</module>
 
   </modules>
   <version>1.0-SNAPSHOT</version>

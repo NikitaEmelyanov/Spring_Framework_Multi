@@ -1,0 +1,5 @@
+truncate table person; - Очищение таблицы Person
+
+alter table person add column address varchar NOT NULL;
+ \                     \
+Изменение таблицы       добавление колонки
