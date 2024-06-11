@@ -36,6 +36,12 @@
       <module>Les40_Spring_Validator</module>
       <module>Les41_Validation_of_patterns</module>
       <module>Project_1</module>
+      <module>Les43_First_app_Hibertate</module>
+    <module>Les44_Save_in_DB</module>
+    <module>Les45_Update_and_Delete_in_DB</module>
+    <module>Les46_HQL_Lang</module>
+    <module>Les47_One_to_many_Hibernate</module>
+
 
   </modules>
   <version>1.0-SNAPSHOT</version>
@@ -125,6 +131,15 @@
       <artifactId>spring-jdbc</artifactId>
       <version>6.1.8</version>
     </dependency>
+
+    <!-- Зависимость урока 43-->
+    <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.5.2.Final</version>
+    </dependency>
+
 
 
   </dependencies>

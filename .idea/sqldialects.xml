@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Les43_First_app_Hibertate/src/main/java/sql/text.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Project_1/src/main/java/Project_1/dao/PersonDAO.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Project_1/src/main/sql/project1_db.sql" dialect="GenericSQL" />
   </component>
