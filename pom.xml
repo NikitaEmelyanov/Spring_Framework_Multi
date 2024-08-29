@@ -5,6 +5,7 @@
   <artifactId>Spring_Framework_Multi</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>Les1_Hello_World</module>
     <module>Les2_Beans</module>
     <module>Les4_IoC</module>
     <module>Les5_DI</module>
@@ -41,6 +42,11 @@
     <module>Les45_Update_and_Delete_in_DB</module>
     <module>Les46_HQL_Lang</module>
     <module>Les47_One_to_many_Hibernate</module>
+    <module>Les47_Homework</module>
+    <module>Les49_Cascading_in_Hibernate</module>
+    <module>Les50_One_to_one_Hibernate</module>
+      <module>Les51_Many_to_Many_Hybernate</module>
+      <module>Les52_Lazy_loading</module>
 
 
   </modules>

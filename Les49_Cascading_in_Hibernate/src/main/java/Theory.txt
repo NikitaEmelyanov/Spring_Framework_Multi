@@ -1,0 +1,38 @@
+___________________________________Отношение Один ко Многим___________________________________________
+
+               Person                                                    Item
+------------------------------------                      ------------------------------------
+|  user_id   |   name    |   age   |                      |  order_id  |  user_id  |item_name|
+|------------|-----------|---------|        БД            |------------|-----------|---------|
+|     1      |    Tom    |    35   |                      |     1      |     1     |  Book   |
+|     2      |    Bob    |    52   |                      |     2      |     1     | Airpods |
+|     3      |    Katy   |    14   |                      |     3      |     2     | Iphone  |
+------------------------------------                      |     4      |     3     | Kindle  |
+                                                          ------------------------------------
+                                                 |    |
+                                                 |    |
+                                                 |    | ORM (Hibernate)
+                                                 |    |
+                                                  Java
+
+Для выстраивания связей между сущностями в Hibernate существуют аннотации:
+1) @OneToMany  - Для родительского класса
+2) @ManyToOne  - Для дочернего класса
+3) @JoinColumn - Помечает колонку внешний ключ
+
+______________________________________________Пример_________________________________________________
+
+@Entity
+@Table(name = "Item")
+public class Item{
+     @ManyToOne                                                      <--- owning side
+     @JoinColumn (name = "person_id", referencedColumnName = "id")     (Сторона владеющая
+     private Person owner;                                                внешним ключом)
+}
+
+@Entity
+@Table (name = "Person")
+public class Person{
+    @OneToMany (mappedBy = "owner")
+    private List<item> items;
+}

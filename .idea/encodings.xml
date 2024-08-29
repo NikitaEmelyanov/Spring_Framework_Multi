@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/Les12_Scope_Value_PostContract_PreDestroy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les13_Java_Config_file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les13_Java_Config_file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les1_Hello_World/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les1_Hello_World/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les2_Beans/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les2_Beans/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les40_Spring_Validator/src/main/java" charset="UTF-8" />
@@ -25,10 +27,24 @@
     <file url="file://$PROJECT_DIR$/Les45_Update_and_Delete_in_DB/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les46_HQL_Lang/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les46_HQL_Lang/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les47.1_Homework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les47.1_Homework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les47_Homework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les47_Homework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les47_One_to_many_Hibernate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les47_One_to_many_Hibernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les48_Cascading_in_Hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les48_Cascading_in_Hibernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les49_Cascading_in_Hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les49_Cascading_in_Hibernate/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les4_IoC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les4_IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les50_One_to_one_Hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les50_One_to_one_Hibernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les51_Many_to_Many_Hybernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les51_Many_to_Many_Hybernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les52_Lazy_loading/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Les52_Lazy_loading/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les5_DI/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les5_DI/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Les6_DI_Part_2/src/main/java" charset="UTF-8" />

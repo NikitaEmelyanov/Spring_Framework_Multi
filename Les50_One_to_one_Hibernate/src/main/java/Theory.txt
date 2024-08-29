@@ -1,0 +1,35 @@
+___________________________________Отношение Один к Одному___________________________________________
+
+             Person                                                   Passport
+------------------------------------                      ------------------------------------
+|  person_id |   name    |   age   |                      | Person_id  |   passport_number   |
+|------------|-----------|---------|        БД            |------------|---------------------|
+|     1      |    Tom    |    35   |                      |     1      |        123456       |
+|     2      |    Bob    |    1    |                      |     2      |       7891011       |
+|     3      |    Katy   |    14   |                      ------------------------------------
+------------------------------------
+                                                 |    |
+                                                 |    |
+                                                 |    | ORM (Hibernate)
+                                                 |    |
+                                                  Java
+
+______________________________Аннотации @OneToOne и @JoinColumn_______________________________________
+
+@Entity
+@Table (name = "Passport")
+public class Passport implements Serializable {
+
+@Id
+@OneToOne()
+@JoinColumn (name = "person_id", referencedColumnName = "id")
+private Person person;
+}
+
+@Entity
+@Table (name = "Person")
+public class Person {
+
+    @OneToOne (mappedBy = "person")
+    private Passport passport;
+}

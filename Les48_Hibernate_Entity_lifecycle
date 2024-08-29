@@ -1,0 +1,57 @@
+
+_______________________________Жизненный цикл сущности Hibernate_______________________________________
+
+Java объекты - сущности проходят через несколько состояний, когда мы используем Hibernate
+1) Transient
+2) Persistent (Managed)
+3) Detached
+4) Removed
+
+_____________________________Transient состояние (Transient state)____________________________________
+
+session.beginTransaction();
+Person person = new Person(name: "New person",age: 30);          //Еще не сохранили
+
+1) Объект пока никак не связан с Hibernate и не отслеживается (не находится в так называемом
+Persistence context)
+2)Вызов сеттеров на объекте никак не будет влиять на состояние БД
+3) Можно воспринимать объект, находящийся в Transient состоянии как обычный Java объект
+
+_______________________Persistence состояние (Persistence (Managed) state)____________________________
+
+session.beginTransaction();
+Person person = new Person(name: "New person",age: 30);
+session.save(person);
+
+session.beginTransaction();
+Person person = session.get(Person.class, serializable: 3);
+
+1) Java объект становиться Persistence тогда, когда сохраняется с помощью Hibernate (следующий вызов
+commit() сохранит объект в БД)
+2) Еще один случай, когда Java объект является Persistence - когда мы получаем его из БД с помощью
+Hibernate.
+3) Объект находится в Persistence context и отслеживается Hibernate'ом
+4) Объект находится в этом состоянии до тех пор пока, работает Hibernate сессия
+5) Поскольку Hibernate отслеживает состояние в Persistence context вызов сеттеров на объектах
+ генерирует SQL код.
+
+_____________________________Detached состояние (Detached state)______________________________________
+
+Person person = session.get (Person.class, serializable: 3);  // Persistence (Managed)
+person.setAge(40);  // Это отслеживается Hibernate
+session.detach(person); // Person стал Detached
+person.setAge(50);  //Это не отслеживается Hibernate
+
+1) Объект перестает быть Persistence и покидает Persistence context - становиться опять обычным Java
+объектом, который Hibernate не отслеживает
+2) Похоже на Transient состояние
+3) Это состояние достигается с помощью вызова detach() или когда закрывается Hibernate сессия
+4) Можно присоединить объект обратно к Persistence context, если вызвать метод merge()
+
+____________________________Removed состояние (Removed state)_________________________________________
+
+session.beginTransaction();
+Person person = session.get (Person.class, serializable: 3);  // Persistence
+session.remove(person);
+
+Объект помечен для удаления и следующий commit() удалит соответствующую строку из таблицы.
